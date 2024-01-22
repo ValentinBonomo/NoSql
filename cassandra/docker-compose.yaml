@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  cassandra:
+    image: cassandra:latest
+    ports:
+      - 3000:7000
+    container_name: cassandra
+    restart: always

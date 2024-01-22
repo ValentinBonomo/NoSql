@@ -1,0 +1,8 @@
+use('mflix');
+db.comments.insertOne({
+ "name": "John Doe",
+ "email": "johndoe@email.com",
+ "movie_id": ObjectId("573a1390f29313caabcd4323"),
+ "text": "Super film !",
+ "date": new Date()
+});
